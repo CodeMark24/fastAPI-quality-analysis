@@ -1,0 +1,3 @@
+release,classification,total_common_files,bug_affected_files,bug_free_files,bug_free_percent
+0.162.4,Public,12,1,11,91.67
+0.162.4,Internal,8,1,7,87.5

@@ -1,0 +1,59 @@
+﻿file,classification,evidence_type,documentation_reference,rationale
+fastapi/__init__.py,Public,Package entry point,fastapi/__init__.py,Re-exports documented FastAPI classes and functions.
+fastapi/__main__.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Command execution entry-point wrapper.
+fastapi/_compat.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Compatibility implementation.
+fastapi/_compat/__init__.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Compatibility package implementation.
+fastapi/_compat/main.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Compatibility implementation.
+fastapi/_compat/may_v1.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Pydantic compatibility implementation.
+fastapi/_compat/model_field.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Compatibility model-field implementation.
+fastapi/_compat/shared.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Shared compatibility helpers.
+fastapi/_compat/v1.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Pydantic v1 compatibility implementation.
+fastapi/_compat/v2.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Pydantic v2 compatibility implementation.
+fastapi/applications.py,Public,Documented API,reference/fastapi.md,Defines the documented FastAPI application class.
+fastapi/background.py,Public,Documented API,reference/background.md,Defines the documented BackgroundTasks class.
+fastapi/cli.py,Public,Documented user-facing interface,fastapi-cli.md,Implements the FastAPI command-line interface documented by the project.
+fastapi/concurrency.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal concurrency helpers.
+fastapi/datastructures.py,Public,Documented API,reference/uploadfile.md,Provides the documented UploadFile API.
+fastapi/dependencies/__init__.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Dependency implementation package.
+fastapi/dependencies/models.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal dependency models.
+fastapi/dependencies/utils.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal dependency resolution functions.
+fastapi/encoders.py,Public,Documented API,reference/encoders.md,Defines the documented jsonable_encoder function.
+fastapi/exception_handlers.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal exception handling implementation.
+fastapi/exceptions.py,Public,Documented API,reference/exceptions.md,Defines documented HTTPException and WebSocketException.
+fastapi/logger.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal logging support.
+fastapi/middleware/__init__.py,Public,Public API namespace,advanced/middleware.md,The documentation identifies fastapi.middleware as a developer-facing convenience namespace.
+fastapi/middleware/asyncexitstack.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal middleware implementation.
+fastapi/middleware/cors.py,Public,Documented API,reference/middleware.md,Provides the documented CORSMiddleware.
+fastapi/middleware/gzip.py,Public,Documented API,reference/middleware.md,Provides the documented GZipMiddleware.
+fastapi/middleware/httpsredirect.py,Public,Documented API,reference/middleware.md,Provides the documented HTTPSRedirectMiddleware.
+fastapi/middleware/trustedhost.py,Public,Documented API,reference/middleware.md,Provides the documented TrustedHostMiddleware.
+fastapi/middleware/wsgi.py,Public,Deprecated public interface,advanced/wsgi.md,Previously documented WSGIMiddleware interface; now deprecated in favour of a2wsgi.
+fastapi/openapi/__init__.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,OpenAPI implementation package.
+fastapi/openapi/constants.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal OpenAPI constants.
+fastapi/openapi/docs.py,Public,Documented API,reference/openapi/,Defines documented OpenAPI documentation rendering functions.
+fastapi/openapi/models.py,Public,Documented API,reference/openapi/,Provides documented OpenAPI models.
+fastapi/openapi/utils.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal OpenAPI generation helpers.
+fastapi/param_functions.py,Public,Documented API,reference/parameters.md,Provides documented parameter declaration functions.
+fastapi/params.py,Public,Public API implementation,reference/parameters.md,Provides parameter classes underlying documented parameter declarations.
+fastapi/requests.py,Public,Documented API,reference/request.md,Defines documented Request and HTTPConnection interfaces.
+fastapi/responses.py,Public,Documented API,reference/responses.md,Defines documented response classes.
+fastapi/routing.py,Public,Documented API,reference/apirouter.md,Defines the documented APIRouter interface.
+fastapi/security/__init__.py,Public,Public API namespace,reference/security/,Provides the security API namespace used by documented security classes.
+fastapi/security/api_key.py,Public,Documented API,reference/security/,Defines documented API key security classes.
+fastapi/security/base.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal security base implementation.
+fastapi/security/http.py,Public,Documented API,reference/security/,Defines documented HTTP authentication classes.
+fastapi/security/oauth2.py,Public,Documented API,reference/security/,Defines documented OAuth2 classes.
+fastapi/security/open_id_connect_url.py,Public,Documented API,reference/security/,Defines the documented OpenID Connect interface.
+fastapi/security/utils.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal security helper functions.
+fastapi/sse.py,Public,Documented API,reference/sse.md,Defines documented server-sent event classes.
+fastapi/staticfiles.py,Public,Documented API,reference/staticfiles.md,Defines the documented StaticFiles interface.
+fastapi/telemetry/__init__.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal telemetry package.
+fastapi/telemetry/_api.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal telemetry implementation.
+fastapi/telemetry/_asgi.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal telemetry implementation.
+fastapi/telemetry/_runtime.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal telemetry runtime implementation.
+fastapi/temp_pydantic_v1_params.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Temporary Pydantic compatibility implementation.
+fastapi/templating.py,Public,Documented API,reference/templating.md,Defines the documented Jinja2Templates interface.
+fastapi/testclient.py,Public,Documented API,reference/testclient.md,Defines the documented TestClient interface.
+fastapi/types.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal type definitions and annotations.
+fastapi/utils.py,Internal,No direct public API evidence identified,FastAPI 0.162.4 documentation review,Internal framework utility functions.
+fastapi/websockets.py,Public,Documented API,reference/websockets.md,Defines documented WebSocket interfaces.

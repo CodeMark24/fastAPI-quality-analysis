@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 # Load the existing SonarQube results
-df = pd.read_csv("fastapi_quality_results.csv")
+df = pd.read_csv("raw_data/fastapi_quality_results.csv")
 
 # Ensure releases are displayed in chronological order
 df["Release"] = df["Release"].astype(str)
 
 # Create an output directory
-output_dir = Path("charts")
+output_dir = Path("analysis/charts")
 output_dir.mkdir(exist_ok=True)
 
 # Shorten release labels for chart readability
