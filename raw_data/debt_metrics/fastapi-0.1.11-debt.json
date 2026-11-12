@@ -1,0 +1,1 @@
+{"component":{"key":"fastapi-0.1.11","name":"FastAPI 0.1.11","qualifier":"TRK","measures":[{"metric":"sqale_debt_ratio","value":"0.0","bestValue":true},{"metric":"sqale_index","value":"0","bestValue":true}]}}

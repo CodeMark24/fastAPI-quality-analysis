@@ -1,0 +1,30 @@
+﻿release,type,severity,rule,effort,effort_minutes,file,line,scope,message
+0.1.11,BUG,BLOCKER,python:S930,10min,10,fastapi/utils.py,28,MAIN,Add 1 missing arguments; 'get_flat_models_from_fields' expects 2 positional arguments.
+0.1.11,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,71,MAIN,Remove or correct this useless self-assignment.
+0.114.2,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,183,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.114.2,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,186,MAIN,Remove or correct this useless self-assignment.
+0.123.1,BUG,MAJOR,python:S1656,3min,3,fastapi/temp_pydantic_v1_params.py,166,MAIN,Remove or correct this useless self-assignment.
+0.123.1,BUG,CRITICAL,python:S5779,5min,5,fastapi/dependencies/utils.py,102,MAIN,Don't use assert inside a try-except that catches AssertionError.
+0.123.1,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,217,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.123.1,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,191,MAIN,Remove or correct this useless self-assignment.
+0.135.1,BUG,BLOCKER,python:S930,10min,10,fastapi/dependencies/utils.py,220,MAIN,Remove this unexpected named argument 'annotation_format'.
+0.135.1,BUG,CRITICAL,python:S5779,5min,5,fastapi/dependencies/utils.py,99,MAIN,Don't use assert inside a try-except that catches AssertionError.
+0.135.1,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,99,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.135.1,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,187,MAIN,Remove or correct this useless self-assignment.
+0.143.1,BUG,BLOCKER,python:S930,10min,10,fastapi/dependencies/utils.py,207,MAIN,Remove this unexpected named argument 'annotation_format'.
+0.143.1,BUG,CRITICAL,python:S5779,5min,5,fastapi/dependencies/utils.py,108,MAIN,Don't use assert inside a try-except that catches AssertionError.
+0.143.1,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,99,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.143.1,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,186,MAIN,Remove or correct this useless self-assignment.
+0.162.4,BUG,BLOCKER,python:S930,10min,10,fastapi/dependencies/utils.py,236,MAIN,Remove this unexpected named argument 'annotation_format'.
+0.162.4,BUG,CRITICAL,python:S5779,5min,5,fastapi/dependencies/utils.py,120,MAIN,Don't use assert inside a try-except that catches AssertionError.
+0.162.4,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,99,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.162.4,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,195,MAIN,Remove or correct this useless self-assignment.
+0.20.1,BUG,BLOCKER,python:S930,10min,10,fastapi/utils.py,30,MAIN,Add 1 missing arguments; 'get_flat_models_from_fields' expects 2 positional arguments.
+0.20.1,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,71,MAIN,Remove or correct this useless self-assignment.
+0.50.0,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/routing.py,252,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.50.0,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,75,MAIN,Remove or correct this useless self-assignment.
+0.71.0,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/routing.py,343,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.71.0,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,80,MAIN,Remove or correct this useless self-assignment.
+0.97.0,BUG,CRITICAL,python:S5779,5min,5,fastapi/routing.py,201,MAIN,Don't use assert inside a try-except that catches AssertionError.
+0.97.0,CODE_SMELL,MAJOR,python:S8519,5min,5,fastapi/utils.py,185,MAIN,"Replace ""list(...)[0]"" with ""next(iter(...))"" to avoid materializing the entire iterable."
+0.97.0,BUG,MAJOR,python:S1656,3min,3,fastapi/params.py,84,MAIN,Remove or correct this useless self-assignment.

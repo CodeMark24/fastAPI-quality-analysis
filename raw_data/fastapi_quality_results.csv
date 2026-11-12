@@ -1,0 +1,11 @@
+﻿Release,NCLOC,Bugs,Vulnerabilities,Code Smells,Duplication Density (%),Duplicated Lines,Coverage (%),Reliability,Security,Maintainability,Quality Gate
+0.1.11,2333,2,0,0,22.0,587,0.0,E,A,A,Passed
+0.20.1,2823,2,0,0,18.0,580,0.0,E,A,A,Passed
+0.50.0,4319,1,0,1,13.0,637,0.0,C,A,A,Passed
+0.71.0,4858,1,0,1,17.3,952,0.0,C,A,A,Passed
+0.97.0,5420,2,0,1,20.1,1237,0.0,D,A,A,Passed
+0.114.2,15710,1,0,1,48.3,8588,0.0,C,A,A,Passed
+0.123.1,17486,3,0,1,46.2,9240,0.0,D,A,A,Passed
+0.135.1,16847,3,0,1,42.5,8220,0.0,E,A,A,Passed
+0.143.1,19334,3,0,1,37.3,8302,0.0,E,A,A,Passed
+0.162.4,19864,3,0,1,37.2,8485,0.0,E,A,A,Passed

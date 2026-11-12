@@ -1,0 +1,6 @@
+.env
+.env.*
+*.token
+.scannerwork/
+__pycache__/
+*.pyc

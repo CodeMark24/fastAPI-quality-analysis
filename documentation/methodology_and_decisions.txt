@@ -1,0 +1,75 @@
+FASTAPI EMPIRICAL SOFTWARE QUALITY STUDY
+
+PROJECT
+FastAPI
+
+OBJECTIVE
+To investigate the evolution of software quality in FastAPI across ten releases using static code analysis with SonarQube.
+
+TOOLS AND CONFIGURATION
+SonarQube Community Build: 26.11.0.134175
+SonarScanner CLI: 8.3.1.16491
+Quality profile: Sonar way
+Analysis experience: Standard
+Python project version: 3.11
+Source scope: fastapi package
+
+RELEASES ANALYSED
+0.1.11
+0.20.1
+0.50.0
+0.71.0
+0.97.0
+0.114.2
+0.123.1
+0.135.1
+0.143.1
+0.162.4
+
+METHODOLOGICAL DECISIONS
+1. FastAPI was retained as the selected project after checking the codebase size against the assignment requirement.
+2. Ten releases were selected to examine changes over time.
+3. The same SonarQube environment, scanner version, quality profile and source scope were used.
+4. The fastapi package was analysed rather than the entire repository.
+5. Production code was included in the analysis.
+6. Bugs, vulnerabilities and code smells were examined.
+7. The default Sonar way quality profile was retained.
+8. Public files were identified using interfaces documented in the official FastAPI API reference.
+9. Files not implementing documented public interfaces were classified as internal.
+10. RQ4 used the 20 files common to all ten releases to ensure a consistent comparison.
+11. RQ5 inspected all three bugs reported in release 0.162.4 because the requested sample of 20 was unavailable.
+
+MAIN FINDINGS
+- 21 bugs detected across the ten releases.
+- 8 code smells detected.
+- 0 vulnerabilities detected.
+- 0 security hotspots reported.
+- 29 total issues.
+- 19 Blocker, Critical and Major severity counts combined.
+- Latest release code size: 19,864 NCLOC.
+- Latest release duplication density: 37.2%.
+- Latest release duplicated lines: 8,485.
+- Latest release estimated technical debt: 5 minutes.
+- Latest release public-file bug-free percentage: 91.7%.
+- Latest release internal-file bug-free percentage: 87.5%.
+- Preliminary RQ5 precision: 33.3%, based on three manually inspected bugs.
+
+LIMITATIONS AND FLAGGED ISSUES
+1. The latest release contained only three detected bugs, rather than the 20 required for the intended RQ5 sample.
+2. All three latest-release bugs were inspected, and the sample-size deviation must be disclosed.
+3. RQ4 was calculated at file level, not class level.
+4. RQ4 was restricted to the 20 files common to all ten releases.
+5. SonarQube findings do not represent every possible software defect.
+6. Zero vulnerabilities and hotspots do not prove the absence of security weaknesses.
+7. No coverage report was imported; the reported 0% coverage must not be interpreted as proof that no tests exist.
+8. Technical debt ratios were displayed rounded to one decimal place.
+9. Remediation effort summed across releases represents scan observations, not unique project debt.
+10. The related Eclipse studies must be verified before making numerical comparisons.
+
+REPRODUCIBILITY
+The package contains exported SonarQube JSON data, CSV datasets, analysis scripts, charts and documentation.
+The ten releases were analysed as separate SonarQube projects.
+Project keys and names were changed for each release while the analysis settings were kept consistent.
+
+CREDENTIALS
+No SonarQube tokens, passwords or private credentials should be included in this package.

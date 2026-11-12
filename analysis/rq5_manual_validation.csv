@@ -1,0 +1,4 @@
+release,rule,file,line,classification,reason
+0.162.4,python:S930,fastapi/dependencies/utils.py,236,False Positive,Python 3.14-specific argument is protected by a version check.
+0.162.4,python:S5779,fastapi/dependencies/utils.py,120,True Positive,Assertion-based version validation can be removed under Python optimization.
+0.162.4,python:S1656,fastapi/params.py,195,False Positive,Redundant self-assignment has no demonstrated functional impact.
