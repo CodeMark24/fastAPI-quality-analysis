@@ -93,3 +93,14 @@ These are static-analysis observations, not proof that the software is free of d
     ├── fastapi_quality_results.csv
     ├── issues_all.csv
     └── sonar_metrics.jsonl]
+### Per-release configuration
+
+Individual SonarQube configuration snapshots are provided in
+`configuration/releases/`.
+
+Each file identifies the corresponding FastAPI release and
+its project-specific SonarQube key and name.
+
+The analysis scope and common scanner settings were kept
+consistent across releases. The configuration snapshots
+document the recorded settings used for the study.
